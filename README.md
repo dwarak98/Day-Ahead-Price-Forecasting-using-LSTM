@@ -4,8 +4,8 @@ State of the art libraries for deep learning such as tensorflow, keras are used 
 
 ## Content
 - [Introduction](README.md#Introduction)
-- [Model Architecture](README.md#Model Architecture)
-- [Results](README.md#Model-Architecture)
+- [Model Architecture](README.md#Model-Architecture)
+- [Results](README.md#Results)
 
 ## Introduction
 Accurately predicting day-ahead prices in the energy
