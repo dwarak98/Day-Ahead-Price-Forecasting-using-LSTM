@@ -1,7 +1,13 @@
-# Day-Ahead-Price-Forecasting-using-LSTM
+Day-Ahead-Price-Forecasting-using-LSTM
+=======================================
 State of the art libraries for deep learning such as tensorflow, keras are used to implement a type of RNN called LSTM.
 
-# Introduction
+## Content
+- [Introduction](README.md#Introduction)
+- [Model Architecture](README.md#Model Architecture)
+- [Results](README.md#Model-Architecture)
+
+## Introduction
 Accurately predicting day-ahead prices in the energy
 service markets can significantly improve bidding strategies
 for participating energy resources in the day-ahead energy
@@ -18,4 +24,8 @@ create a new training set within the prediction sequence. As
 a result, we predict day-ahead hourly energy prices using all
 the lagged energy prices/load consumption values from input
 sequence. 
+
+## Model Architecture
+
+## Results
 
