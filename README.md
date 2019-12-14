@@ -26,6 +26,6 @@ the lagged energy prices/load consumption values from input
 sequence. 
 
 ## Model Architecture
-
+![Model Architecture](model_arch.png)
 ## Results
 
