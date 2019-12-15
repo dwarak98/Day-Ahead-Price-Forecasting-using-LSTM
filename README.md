@@ -29,15 +29,15 @@ a result, we predict day-ahead hourly energy prices using all
 the lagged energy prices/load consumption values from input
 sequence. 
 
-Model Architecture
-======================
+## Model Architecture
+
 <p align="center">
     <img width="480" height="300" src=model_arch.png>
 </p>
 
-### Bidirectional LSTM Layer
+## Bidirectional LSTM Layer
 
-### Time Distribution Layer
+## Time Distribution Layer
 
 ## LSTM Model Training
 
