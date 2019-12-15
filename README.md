@@ -41,7 +41,7 @@ In the model training, we observed the following:
 2. Batch size greatly influenced the predictions. Lower the batch size, better is the MAPE. 
 3. Changing the structure of the network did not signnificant influence in the results 
 <p align="center">
-    <img width="460" height="300" src=model_parameters.PNG>
+    <src=model_parameters.PNG>
     <img width="460" height="300" src=learning_curve.PNG>
 </p>
 
