@@ -31,6 +31,13 @@ sequence.
 ![Model Architecture](model_arch.png)
 
 ## LSTM Model Training
+
+In the model training, we observed the following: 
+
+1. Number of epochs for training is not important. 
+2. Batch size greatly influenced the predictions. Lower the batch size, better is the MAPE. 
+3. Changing the structure of the network did not signnificant influence in the results 
+
 ![Model Parameters](model_parameters.PNG)
 ![Model Learning Curve](learning_curve.PNG)
 
