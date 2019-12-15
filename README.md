@@ -53,6 +53,7 @@ In the model training, we observed the following:
 |     12 Hour     |  3.24 |  2.85 |       12.86       |
 |      4 Hour     |  1.35 |  2.21 |       12.66       |
 
-Note: Please find the attached report for more details regarding Linear Regression or ARIMA model, 
+***Note: Please find the attached report for more details regarding Linear Regression or ARIMA model***
+
 
 
