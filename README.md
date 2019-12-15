@@ -30,10 +30,11 @@ sequence.
 ## Model Architecture
 ![Model Architecture](model_arch.png)
 
-## LSTM Model Parameters
-![Model Architecture](model_arch.png)
+## LSTM Model Training
+![Model Parameters](model_parameters.PNG)
+![Model Learning Curve](learning_curve.PNG)
 
 ## Results
-![Model Architecture](model_arch.png)
+![Model Architecture](Predictions.PNG)
 
 
