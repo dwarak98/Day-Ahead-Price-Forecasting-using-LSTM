@@ -29,7 +29,7 @@ sequence.
 
 ## Model Architecture
 <p align="center">
-  ![Model Architecture](model_arch.png)
+  <![Model Architecture](model_arch.png)>
 </p>
 
 
