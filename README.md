@@ -5,6 +5,8 @@ State of the art libraries for deep learning such as tensorflow, keras are used 
 ## Content
 - [Introduction](README.md#Introduction)
 - [Model Architecture](README.md#Model-Architecture)
+    -[Bidirectional LSTM Layer](README.md#Bidirectional-LSTM-Layer)
+    -[Time Distribution Layer](README.md#Time-Distribution-Layer)
 - [LSTM Model Parameters](README.md#Results)
 - [Results](README.md#Results)
 
@@ -31,7 +33,9 @@ sequence.
 <p align="center">
     <img width="480" height="300" src=model_arch.png>
 </p>
+### Bidirectional LSTM Layer
 
+### Time Distribution Layer
 
 ## LSTM Model Training
 
