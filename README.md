@@ -29,7 +29,7 @@ sequence.
 
 ## Model Architecture
 <p align="center">
-    <img width="460" height="300" src=model_arch.png>
+    <img width="480" height="300" src=model_arch.png>
 </p>
 
 
@@ -40,15 +40,15 @@ In the model training, we observed the following:
 1. Number of epochs for training is not important. 
 2. Batch size greatly influenced the predictions. Lower the batch size, better is the MAPE. 
 3. Changing the structure of the network did not signnificant influence in the results 
+![MODEL PARAMETERS](model_parameters.PNG)
 <p align="center">
-    <src=model_parameters.PNG>
-    <img width="460" height="300" src=learning_curve.PNG>
+    <img width="480" height="300" src=learning_curve.PNG>
 </p>
 
 ## Results
 
 <p align="center">
-    <img width="460" height="300" src=Predictions.PNG>
+    <img width="480" height="300" src=Predictions.PNG>
     
 </p>
 
