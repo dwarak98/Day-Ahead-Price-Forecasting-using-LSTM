@@ -44,4 +44,13 @@ In the model training, we observed the following:
 ## Results
 ![Model Architecture](Predictions.PNG)
 
+### MAPE (%) for different models
+
+| Forecast Period |  LSTM | ARIMA | Linear Regression |
+|:---------------:|:-----:|:-----:|:-----------------:|
+|     48 Hour     | 20.64 |  5.8  |         -         |
+|     24 Hour     |  6.55 |  4.52 |       12.95       |
+|     12 Hour     |  3.24 |  2.85 |       12.86       |
+|      4 Hour     |  1.35 |  2.21 |       12.66       |
+
 
