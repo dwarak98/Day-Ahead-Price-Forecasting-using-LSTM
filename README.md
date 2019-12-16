@@ -1,4 +1,4 @@
-Day-Ahead-Price-Forecasting-using-LSTM
+Day-Ahead-LMP-Price-Forecasting-using-LSTM
 =======================================
 Implemented Multivariate LSTM for predicting Day-Ahead Prices using State of the art libraries for deep learning.
 
