@@ -42,6 +42,8 @@ LSTM in general are used to store long term dependencies or patterns in the time
 
 ## LSTM Model Training
 
+The training time for 20 epochs is around 30-40 minutes on google colab GPU. Once the model is trained, it is validated using validation dataset. Hyperparameter tuning of the model is critical task and this takes very long time compared to traditional forecasting techniques like ARIMA. Once we use a model to predict for the Day-Ahead, we cannot use the same model for future predictions, because we have to retrain the model with the most recent data to get a better accuracy.   
+
 In the model training, we observed the following: 
 
 1. Number of epochs for training is not important. 
