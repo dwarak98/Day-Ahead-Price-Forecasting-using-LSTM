@@ -36,6 +36,7 @@ sequence.
 </p>
 
 ## Bidirectional LSTM Layer
+LSTM in general are used to store long term dependencies or patterns in the time series data. A bidirectional LSTM is a type of LSTM where there is two factor learning, one in the forward direction and the other in the reverse direction. In our case, we learn the price sequence from 1 to 24 hours and in the opposite direction. Bidirectional LSTM produces a better accuracy than unidirectional LSTM.  
 
 ## Time Distribution Layer
 
@@ -45,7 +46,7 @@ In the model training, we observed the following:
 
 1. Number of epochs for training is not important. 
 2. Batch size greatly influenced the predictions. Lower the batch size, better is the MAPE. 
-3. Changing the structure of the network did not signnificant influence in the results 
+3. Changing the structure of the network did not influence the results significantly.
 ![MODEL PARAMETERS](model_parameters.PNG)
 <p align="center">
     <img width="480" height="300" src=learning_curve.PNG>
