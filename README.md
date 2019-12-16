@@ -39,7 +39,7 @@ sequence.
 LSTM in general are used to store long term dependencies or patterns in the time series data. A bidirectional LSTM is a type of LSTM where there is two factor learning, one in the forward direction and the other in the reverse direction. In our case, we learn the price sequence from 1 to 24 hours and in the opposite direction. Bidirectional LSTM produces a better accuracy than unidirectional LSTM.  
 
 ## Time Distributed Layer
-
+This layer outputs a sequence of 128 values at one time step. Without this layer, the LSTM will output the whole vector instead of 128 values. Since values are processed once at a time step, we end up training less number of parameters(weights). Processing 128 values at each time step offers a better learning characteristics due to reduction in trainable parameters. 
 
 ## LSTM Model Training
 
