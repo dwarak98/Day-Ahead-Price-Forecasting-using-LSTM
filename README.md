@@ -1,6 +1,6 @@
 Day-Ahead-Price-Forecasting-using-LSTM
 =======================================
-State of the art libraries for deep learning such as tensorflow, keras are used to implement a type of RNN called LSTM.
+Implemented Multivariate LSTM for predicting Day-Ahead Prices using State of the art libraries for deep learning.
 
 ## Content
 - [Introduction](README.md#Introduction)
