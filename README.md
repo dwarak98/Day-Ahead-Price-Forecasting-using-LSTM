@@ -6,7 +6,7 @@ Implemented Multivariate LSTM for predicting Day-Ahead Prices using State of the
 - [Introduction](README.md#Introduction)
 - [Model Architecture](README.md#Model-Architecture)
   - [Bidirectional LSTM Layer](README.md#Bidirectional-LSTM-Layer)
-  - [Time Distribution Layer](README.md#Time-Distribution-Layer)
+  - [Time Distributed Layer](README.md#Time-Distributed-Layer)
 - [LSTM Model Parameters](README.md#LSTM-Model-Training)
 - [Results](README.md#Results)
 
@@ -38,12 +38,12 @@ sequence.
 ## Bidirectional LSTM Layer
 LSTM in general are used to store long term dependencies or patterns in the time series data. A bidirectional LSTM is a type of LSTM where there is two factor learning, one in the forward direction and the other in the reverse direction. In our case, we learn the price sequence from 1 to 24 hours and in the opposite direction. Bidirectional LSTM produces a better accuracy than unidirectional LSTM.  
 
-## Time Distribution Layer
+## Time Distributed Layer
 
 
 ## LSTM Model Training
 
-The training time for 20 epochs is around 30-40 minutes on google colab GPU. Once the model is trained, it is validated using validation dataset. Hyperparameter tuning of the model is critical task and this takes very long time compared to traditional forecasting techniques like ARIMA. Once we use a model to predict for the Day-Ahead, we cannot use the same model for future predictions, because we have to retrain the model with the most recent data to get a better accuracy. Deep learning models are not there yet for time series forecasting. When I can run ARIMA/ARIMAX for 2 minutes and get a equivalent result, there is a lot of savings on energy consumption and carbon footprint.   
+The training time for 20 epochs is around 30-40 minutes on google colab GPU. Once the model is trained, it is validated using validation dataset. Hyperparameter tuning of the model is critical task and this takes very long time compared to traditional forecasting techniques like ARIMA. Once we use a model to predict for the Day-Ahead, we cannot use the same model for future predictions, because we have to retrain the model with the most recent data to get a better accuracy. Deep learning models are not there yet for time series forecasting. When I can run ARIMA/ARIMAX for 30 seconds and get a equivalent MAPE, there is a lot of savings on energy consumption and carbon footprint.   
 
 In the model training, we observed the following: 
 
@@ -71,6 +71,8 @@ In the model training, we observed the following:
 |     24 Hour     |  6.55 |  4.52 |       12.95       |
 |     12 Hour     |  3.24 |  2.85 |       12.86       |
 |      4 Hour     |  1.35 |  2.21 |       12.66       |
+
+
 
 ***Note: Please find the attached report for more details regarding Linear Regression or ARIMA model***
 
