@@ -65,7 +65,7 @@ In the model training, we observed the following:
 
 ### MAPE (%) for different models
 
-| Forecast Period |  LSTM | ARIMA | Linear Regression |
+| Forecast Period |  LSTM | ARIMAX | Linear Regression |
 |:---------------:|:-----:|:-----:|:-----------------:|
 |     48 Hour     | 20.64 |  5.8  |         -         |
 |     24 Hour     |  6.55 |  4.52 |       12.95       |
